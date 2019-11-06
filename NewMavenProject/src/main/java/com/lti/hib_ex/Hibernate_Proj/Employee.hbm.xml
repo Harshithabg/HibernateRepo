@@ -4,7 +4,7 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping package="com.lti.hib_ex.Hibernate_Proj">
-<class name ="Employee" table = "Emplo">
+<class name ="Employee" table = "Employee12">
 <id name ="id" column ="id">
 <generator class ="sequence">
 <param name ="sequence">emp_seq</param>
