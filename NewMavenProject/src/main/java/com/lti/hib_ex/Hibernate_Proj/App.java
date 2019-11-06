@@ -23,6 +23,8 @@ public static void main(String args[]){
 	
 	session.beginTransaction();
 	session.save(employee);
+	session.save(employ);
+	
 	session.getTransaction().commit();
 	
 }
