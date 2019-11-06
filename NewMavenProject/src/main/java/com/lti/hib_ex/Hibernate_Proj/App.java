@@ -17,6 +17,10 @@ public static void main(String args[]){
 	Employee employee = new Employee();
 	employee.setEmpName("HARSHITHA");
 	employee.setBranch("bangalore");
+	Employee employ=new Employee();
+	employ.setEmpName("Vybhav");
+	employ.setBranch("Mangalore");
+	
 	session.beginTransaction();
 	session.save(employee);
 	session.getTransaction().commit();
